@@ -11,27 +11,44 @@
 
     <title>Pavel Petrov Photo</title>
   </head>
-  <body>
-    <header>
-    <h1 class="text-center p-4">Pavel Petrov Photo</h1>
+  <body class="bg-light">
+    <header class="border-bottom">
+    <h1 class="text-left pt-4 pl-4 pr-4  pb-1 font-italic border-bottom w-25">Pavel Petrov Photo</h1>
+    <nav class="navbar navbar-expand-lg navbar-light font-italic pl-4">
+      <a class="navbar-brand" href="#">Main</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Price</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Portfolio
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Nature</a>
+              <a class="dropdown-item" href="#">Urban</a>
+              <a class="dropdown-item" href="#">People</a>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <span class="navbar-text font-italic">
+        We are making photographs to understand what our lives mean to us.
+      </span>
+    </nav>
   </header>
   <main>
-    <nav class="container-fluid text-center p-3">
-      <div class="row">
-        <h2 class="col-sm">
-         <img class="align-self-center mr-3" src="icons/about-me.png"> About me
-        </h2>
-        <h2 class="col-sm">
-          <img class="align-self-center mr-3" src="icons/portfolio.png"> Portfolio
-        </h2>
-        <h2 class="col-sm">
-          <img class="align-self-center mr-3" src="icons/price.png"> Price
-        </h2>
-        <h2 class="col-sm">
-          <img class="align-self-center mr-3" src="icons/contacts.png">Contacts
-        </h2>
-      </div>
-    </nav>
+    
   </main>
   <footer>
   </footer> 
