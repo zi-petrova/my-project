@@ -61,6 +61,7 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  background: url(img/main-wallaper.jpg);
 }
 
 [tabindex="-1"]:focus:not(:focus-visible) {
@@ -10143,7 +10144,7 @@ a.text-dark:hover, a.text-dark:focus {
   visibility: hidden !important;
 }
 
-@media print {
+0@media print {
   *,
   *::before,
   *::after {
